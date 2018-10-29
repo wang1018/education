@@ -34,7 +34,9 @@ public class CourseController {
 
     @Autowired
     private CourseServiceApi courseServiceApi;
-
+    
+    @Autowired
+    private MongoTemplate mongoTemplate;
 
     /**
      * 跳转到查询页面
